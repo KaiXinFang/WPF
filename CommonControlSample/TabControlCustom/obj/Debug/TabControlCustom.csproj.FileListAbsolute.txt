@@ -1,0 +1,15 @@
+E:\python_file\WPF\CommonControl\TabControlCustom\obj\Debug\TabControlCustom.csproj.AssemblyReference.cache
+E:\python_file\WPF\CommonControl\TabControlCustom\obj\Debug\App.g.cs
+E:\python_file\WPF\CommonControl\TabControlCustom\obj\Debug\TabControlCustom_MarkupCompile.cache
+E:\python_file\WPF\CommonControl\TabControlCustom\bin\Debug\TabControlCustom.exe.config
+E:\python_file\WPF\CommonControl\TabControlCustom\bin\Debug\TabControlCustom.exe
+E:\python_file\WPF\CommonControl\TabControlCustom\bin\Debug\TabControlCustom.pdb
+E:\python_file\WPF\CommonControl\TabControlCustom\obj\Debug\MainWindow.g.cs
+E:\python_file\WPF\CommonControl\TabControlCustom\obj\Debug\TabControlCustom_MarkupCompile.lref
+E:\python_file\WPF\CommonControl\TabControlCustom\obj\Debug\MainWindow.baml
+E:\python_file\WPF\CommonControl\TabControlCustom\obj\Debug\TabControlCustom.g.resources
+E:\python_file\WPF\CommonControl\TabControlCustom\obj\Debug\TabControlCustom.Properties.Resources.resources
+E:\python_file\WPF\CommonControl\TabControlCustom\obj\Debug\TabControlCustom.csproj.GenerateResource.cache
+E:\python_file\WPF\CommonControl\TabControlCustom\obj\Debug\TabControlCustom.csproj.CoreCompileInputs.cache
+E:\python_file\WPF\CommonControl\TabControlCustom\obj\Debug\TabControlCustom.exe
+E:\python_file\WPF\CommonControl\TabControlCustom\obj\Debug\TabControlCustom.pdb
