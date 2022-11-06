@@ -1,0 +1,71 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:uicontrols="clr-namespace:DiyControl.UiCore.Controls">
+
+    <SolidColorBrush x:Key="Button.Static.Background" Color="Transparent"/>
+    <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#33000000"/>
+    <SolidColorBrush x:Key="Button.Pressed.Background" Color="#33000000"/>
+    <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+    <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+    <DropShadowEffect x:Key="DeepPathEffect" ShadowDepth="1" Color="Black"/>
+    <Style x:Key="WithDescIconTextButton" TargetType="{x:Type uicontrols:WithDescTextIconButton}">
+        <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+        <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+        <Setter Property="Foreground" Value="#FF000000"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Cursor" Value="Arrow"/>
+        <Setter Property="Padding" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type uicontrols:WithDescTextIconButton}">
+                    <Grid x:Name="root" Margin="0">
+                        <Border x:Name="border" Background="{TemplateBinding Background}" 
+                                BorderThickness="{TemplateBinding BorderThickness}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                SnapsToDevicePixels="true">
+                        </Border>
+                        <StackPanel Orientation="Horizontal">
+                            <!--调整padding的值可以调整图标的大小-->
+                            <Border Padding="8.5" Width="30">
+                                <Viewbox>
+                                    <Path Data="{TemplateBinding WithDescIconData}"
+                                          x:Name="path" Fill="{TemplateBinding Foreground}" 
+                                          Stretch="Uniform">
+                                    </Path>
+                                </Viewbox>
+                            </Border>
+                            <StackPanel VerticalAlignment="Center">
+                                <ContentPresenter x:Name="contentPresenter" Focusable="False" 
+                                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}">
+                                </ContentPresenter>
+                                <TextBlock Name="tooptipText" Text="{TemplateBinding WithDescTextData}" Opacity="0.9"
+                                           HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                           Padding="{TemplateBinding Padding}" Foreground="{TemplateBinding Foreground}">
+                                </TextBlock>
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter Property="Background" TargetName="border" Value="{StaticResource Button.MouseOver.Background}"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Pressed.Background}"/>
+                            <Setter Property="Margin" TargetName="root" Value="1"/>
+                            <Setter Property="TextElement.FontWeight" TargetName="contentPresenter" Value="Bold"/>
+                            <Setter Property="TextElement.FontWeight" TargetName="tooptipText" Value="Bold"/>
+                            <Setter Property="Effect" TargetName="path" Value="{StaticResource DeepPathEffect}"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

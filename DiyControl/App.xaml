@@ -1,0 +1,27 @@
+﻿<Application x:Class="DiyControl.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DiyControl"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!--合并资源字典-->
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="UiCore/Styles/TextOnlyButton.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="UiCore/Styles/BackDropButton.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="UiCore/Styles/IconOnlyButton.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="UiCore/Styles/StretchIconButtons.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="UiCore/Styles/TextIconButton.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="UiCore/Styles/WithDescIconTextButton.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="UiCore/Styles/WindowsSettingsHomeButton.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="UiCore/Styles/SiderRectRadioButton.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="UiCore/Styles/DefaultRadioButton.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="UiCore/Styles/SiderRectIconRadioButton.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="UiCore/Styles/OpenCloseToggleButton.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="UiCore/Styles/TextToggleButton.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="UiCore/Styles/DefaultCheckBox.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="UiCore/Styles/DefaultComboBox.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

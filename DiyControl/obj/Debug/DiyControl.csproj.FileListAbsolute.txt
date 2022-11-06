@@ -1,0 +1,11 @@
+E:\python_file\WPF\DiyControl\obj\Debug\DiyControl.csproj.AssemblyReference.cache
+E:\python_file\WPF\DiyControl\obj\Debug\UiCore\Styles\BackDropButton.baml
+E:\python_file\WPF\DiyControl\obj\Debug\UiCore\Styles\DefaultCheckBox.baml
+E:\python_file\WPF\DiyControl\obj\Debug\UiCore\Styles\DefaultComboBox.baml
+E:\python_file\WPF\DiyControl\obj\Debug\UiCore\Styles\DefaultRadioButton.baml
+E:\python_file\WPF\DiyControl\obj\Debug\UiCore\Styles\TextOnlyButton.baml
+E:\python_file\WPF\DiyControl\obj\Debug\MainWindow.g.cs
+E:\python_file\WPF\DiyControl\obj\Debug\App.g.cs
+E:\python_file\WPF\DiyControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\python_file\WPF\DiyControl\obj\Debug\DiyControl_MarkupCompile.cache
+E:\python_file\WPF\DiyControl\obj\Debug\DiyControl_MarkupCompile.lref
