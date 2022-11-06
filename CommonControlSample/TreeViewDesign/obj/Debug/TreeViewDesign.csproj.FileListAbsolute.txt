@@ -1,0 +1,14 @@
+E:\python_file\WPF\CommonControl\TreeViewDesign\bin\Debug\TreeViewDesign.exe.config
+E:\python_file\WPF\CommonControl\TreeViewDesign\bin\Debug\TreeViewDesign.exe
+E:\python_file\WPF\CommonControl\TreeViewDesign\bin\Debug\TreeViewDesign.pdb
+E:\python_file\WPF\CommonControl\TreeViewDesign\obj\Debug\MainWindow.g.cs
+E:\python_file\WPF\CommonControl\TreeViewDesign\obj\Debug\App.g.cs
+E:\python_file\WPF\CommonControl\TreeViewDesign\obj\Debug\TreeViewDesign_MarkupCompile.cache
+E:\python_file\WPF\CommonControl\TreeViewDesign\obj\Debug\TreeViewDesign_MarkupCompile.lref
+E:\python_file\WPF\CommonControl\TreeViewDesign\obj\Debug\MainWindow.baml
+E:\python_file\WPF\CommonControl\TreeViewDesign\obj\Debug\TreeViewDesign.g.resources
+E:\python_file\WPF\CommonControl\TreeViewDesign\obj\Debug\TreeViewDesign.Properties.Resources.resources
+E:\python_file\WPF\CommonControl\TreeViewDesign\obj\Debug\TreeViewDesign.csproj.GenerateResource.cache
+E:\python_file\WPF\CommonControl\TreeViewDesign\obj\Debug\TreeViewDesign.csproj.CoreCompileInputs.cache
+E:\python_file\WPF\CommonControl\TreeViewDesign\obj\Debug\TreeViewDesign.exe
+E:\python_file\WPF\CommonControl\TreeViewDesign\obj\Debug\TreeViewDesign.pdb
