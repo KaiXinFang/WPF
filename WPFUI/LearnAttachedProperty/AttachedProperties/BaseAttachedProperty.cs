@@ -45,7 +45,7 @@ namespace LearnAttachedProperty
             typeof(Property), 
             typeof(BaseAttachedProperty<Parent, Property>), 
             new UIPropertyMetadata(
-                default(Property),
+                default(Property),/*默认值是 False */
                 new PropertyChangedCallback(OnValuePropertyChanged),
                 new CoerceValueCallback(OnValuePropertyUpdated)
                 ));

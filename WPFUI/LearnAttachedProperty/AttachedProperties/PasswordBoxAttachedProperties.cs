@@ -8,6 +8,7 @@ namespace LearnAttachedProperty
     /// </summary>
     public class MonitorPasswordProperty : BaseAttachedProperty<MonitorPasswordProperty, bool>
     {
+        /*因为这个文件的属性是在Text.xaml中使用的，针对的类型是PasswodBox，所以下面的sender都是PasswordBox类型*/
         public override void OnValueChanged(DependencyObject sender, DependencyPropertyChangedEventArgs e)
         {
             // Get the caller

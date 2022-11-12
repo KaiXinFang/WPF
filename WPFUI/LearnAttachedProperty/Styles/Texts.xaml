@@ -82,7 +82,7 @@
         <Setter Property="BorderBrush" Value="{StaticResource WordBlueBrush}" />
         <Setter Property="BorderThickness" Value="0 0 0 1" />
 
-        <Setter Property="local:MonitorPasswordProperty.Value" Value="True" />
+        <Setter Property="local:MonitorPasswordProperty.Value" Value="False" />
 
         <Setter Property="Template">
             <Setter.Value>
@@ -95,9 +95,10 @@
                                 BorderThickness="{TemplateBinding BorderThickness}"
                                 Background="{TemplateBinding Background}"
                                 SnapsToDevicePixels="True">
+                            <!--password的实际内容-->
                             <ScrollViewer x:Name="PART_ContentHost" Focusable="False" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
                         </Border>
-
+                        <!--这个控件只是在password上面添加一个提示文本-->
                         <TextBlock IsHitTestVisible="False"
                                    Text="{TemplateBinding Tag}"
                                    x:Name="placeholder"
