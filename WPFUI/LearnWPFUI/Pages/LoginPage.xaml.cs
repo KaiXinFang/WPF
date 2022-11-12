@@ -18,11 +18,17 @@ namespace LearnWPFUI
     /// <summary>
     /// LoginPage.xaml 的交互逻辑
     /// </summary>
-    public partial class LoginPage : Page
+    public partial class LoginPage : BasePage
     {
         public LoginPage()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            // do the out animate ( in animate is done when the page is uploaded )
+            this.AnimateOut();
         }
     }
 }
